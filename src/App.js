@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import { NavBar } from './components/NavBar';
+import { Footer } from './components/Footer';
+import { Header } from './components/Header';
+import GlobalStyle from "./styles/global";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBar/>
+        <Header />
+        <Footer />
+        <GlobalStyle />
       </header>
     </div>
   );
