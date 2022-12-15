@@ -15,9 +15,33 @@ export const StyledContainer = styled.div`
    color: white;
    text-align: center;
 
+   img:hover {
+      cursor: pointer;
+   }
+
    ul {
       display: flex;
       list-style: none;
-      
    }
+   li {
+      margin: 10px;
+   }
+
+   a {
+      border: none;
+      color: white;
+      text-align: center;
+      margin: 4px 2px;
+      opacity: 0.6;
+      transition: 0.3s;
+
+      
+      font-style: Regular;
+      font-size: 19px;
+
+      line-height: 23px;
+      line-height: 100%;
+      letter-spacing: 2px;
+   }
+   a:hover {opacity: 1}
 `;

@@ -6,7 +6,7 @@ export const Header = () => {
     return (
         <StyledContainer>
             <figure>
-            <img src={logo} alt="logo-sampleada" />
+                <img src={logo} alt="logo-sampleada" />
             </figure>
             <NavBar />
         </StyledContainer>
