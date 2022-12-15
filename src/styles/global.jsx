@@ -17,8 +17,6 @@ export default createGlobalStyle`
     color: var(--post-white);
     display: flex;
     justify-content: center;
-    font-weight: 400;
-    font-family: sans-serif, "Source Sans Pro";
   }
   .App {
     padding: 25px;
